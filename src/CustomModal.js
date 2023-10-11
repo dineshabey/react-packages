@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 
-export default function CustomModal() {
+export default function CustomModal({btnTxt}) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -12,7 +12,7 @@ export default function CustomModal() {
     return (
         <>
             <Button variant="primary" onClick={handleShow}>
-                Launch demo modal
+               {btnTxt}
             </Button>
 
             <Modal show={show} onHide={handleClose}>

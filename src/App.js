@@ -32,7 +32,7 @@ function App() {
         ))}
       </> */}
       <br />
-      <CustomModal/>
+      <CustomModal btnTxt={'Open Me'}/>
 
     </div>
   );
