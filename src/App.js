@@ -1,20 +1,22 @@
 
-import './App.css';
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Alert from 'react-bootstrap/Alert';
-import CustomAccordion from './CustomAccordion';
-import AccordiyantList from './AccordiyantList';
-import CustomModal from './CustomModal';
+// import './App.css';
+// import Button from 'react-bootstrap/Button';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import Alert from 'react-bootstrap/Alert';
+// import CustomAccordion from './CustomAccordion';
+// import AccordiyantList from './AccordiyantList';
+// import CustomModal from './CustomModal';
+
+import TestMuiButton from "./TestMuiButton";
 
 
 
 function App() {
   return (
     <div className='App'>
-      <Button variant="primary">Primary</Button>{' '}
+      {/* <Button variant="primary">Primary</Button>{' '} */}
       <br />
-      <AccordiyantList />
+      {/* <AccordiyantList /> */}
       {/* <>
         {[
           'primary',
@@ -32,7 +34,8 @@ function App() {
         ))}
       </> */}
       <br />
-      <CustomModal btnTxt={'Open Me'}/>
+      {/* <CustomModal btnTxt={'Open Me'}/> */}
+      <TestMuiButton />
 
     </div>
   );
