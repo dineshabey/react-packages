@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Alert from 'react-bootstrap/Alert';
 import CustomAccordion from './CustomAccordion';
 import AccordiyantList from './AccordiyantList';
+import CustomModal from './CustomModal';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         ))}
       </> */}
       <br />
+      <CustomModal/>
 
     </div>
   );
