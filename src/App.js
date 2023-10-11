@@ -11,7 +11,7 @@ import CustomModal from './CustomModal';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Button variant="primary">Primary</Button>{' '}
       <br />
       <AccordiyantList />
